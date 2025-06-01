@@ -20,7 +20,7 @@ task1.attach(dev2);
 project.add(task1);
 project.add(task2);
 
-// ⚠️ Попробуем добавить подзадачу к обычной задаче (task1)
+// Попробуем добавить подзадачу к обычной задаче (task1)
 const subTask = new Task("Реализовать авторизацию");
 
 task1.add(subTask); 
